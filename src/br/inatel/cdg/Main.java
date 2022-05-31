@@ -21,13 +21,12 @@ public class Main {
         novalista.setNota(valor);
 
         try{
-
+            novalista.listaAdd(nome,valor);
 
         }catch(Exception e){
             System.out.println("Nota insuficiente para aprovação!");
         }
-
-
+        
 
           sc.close();
     }
